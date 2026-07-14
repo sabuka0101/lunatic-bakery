@@ -9,17 +9,19 @@ interface ContactProps {
 }
 
 export default function Contact({ lang, t }: ContactProps) {
-  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.437452668516!2d44.75704127653521!3d41.71324707126046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d421d0a5cf%3A0xbb8a04ea6015b6b1!2s7%20Lado%20Kavsadze%20St%2C%20Tbilisi!5e0!3m2!1sen!2sge!4v1710000000000";
+  const mapUrl =
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.437452668516!2d44.75704127653521!3d41.71324707126046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d421d0a5cf%3A0xbb8a04ea6015b6b1!2s7%20Lado%20Kavsadze%20St%2C%20Tbilisi!5e0!3m2!1sen!2sge!4v1710000000000";
 
   return (
-    <section id="contact" className="py-24 bg-brand-cream relative overflow-hidden border-t border-brand-dark/10">
+    <section
+      id="contact"
+      className="py-24 bg-brand-cream relative overflow-hidden border-t border-brand-dark/10"
+    >
       {/* Background visual accents */}
       <div className="absolute top-0 right-0 w-80 h-80 bg-brand-tan/5 rounded-full blur-2xl -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
-          
           {/* Column 1: Contact Details */}
           <div className="lg:col-span-5 space-y-8">
             <div className="space-y-4">
@@ -118,7 +120,7 @@ export default function Contact({ lang, t }: ContactProps) {
                     href="tel:+995599000000"
                     className="block text-brand-dark/80 text-sm sm:text-base hover:text-brand-tan transition-colors font-light"
                   >
-                    +995 599 00 00 00
+                    +995 592 74 00 77
                   </a>
                   <a
                     href="mailto:hello@lunaticbakery.ge"
@@ -193,7 +195,6 @@ export default function Contact({ lang, t }: ContactProps) {
               />
             </motion.div>
           </div>
-
         </div>
       </div>
     </section>
