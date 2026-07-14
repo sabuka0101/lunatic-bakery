@@ -117,16 +117,16 @@ export default function Contact({ lang, t }: ContactProps) {
                     {lang === "en" ? "Get in Touch" : "დაგვიკავშირდით"}
                   </h4>
                   <a
-                    href="tel:+995592 74 00 77"
+                    href="tel:+995592740077"
                     className="block text-brand-dark/80 text-sm sm:text-base hover:text-brand-tan transition-colors font-light"
                   >
                     +995 592 74 00 77
                   </a>
                   <a
-                    href="mailto:hello@lunaticbakery.ge"
+                    href="mailto:lunaticcookies@gmail.com"
                     className="block text-brand-dark/50 text-xs hover:text-brand-tan transition-colors font-mono"
                   >
-                    hello@lunaticbakery.ge
+                    lunaticcookies@gmail.com
                   </a>
                 </div>
               </motion.div>
