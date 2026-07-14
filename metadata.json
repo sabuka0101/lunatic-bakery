@@ -1,0 +1,6 @@
+{
+  "name": "Lunatic Bakery",
+  "description": "A premium luxury artisan bakery and dessert shop in Tbilisi, Georgia, offering handcrafted pastries, cookies, and specialty coffee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
