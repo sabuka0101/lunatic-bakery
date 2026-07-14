@@ -117,7 +117,7 @@ export default function Contact({ lang, t }: ContactProps) {
                     {lang === "en" ? "Get in Touch" : "დაგვიკავშირდით"}
                   </h4>
                   <a
-                    href="tel:+995599000000"
+                    href="tel:+995592 74 00 77"
                     className="block text-brand-dark/80 text-sm sm:text-base hover:text-brand-tan transition-colors font-light"
                   >
                     +995 592 74 00 77
